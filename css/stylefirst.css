@@ -20,6 +20,10 @@ header {
   top: 0;
 }
 
+.nav-link {
+  color: #028090;
+}
+
 header {
   position: sticky;
   top: 0;

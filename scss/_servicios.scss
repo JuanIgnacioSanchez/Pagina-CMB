@@ -86,3 +86,39 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .body__ser {
+    .conteiner__ser {
+      .conteiner__ser--div__title {
+        padding: 4% 0;
+
+        .div__title--title__ser {
+          font-size: 240%;
+        }
+      }
+
+      .conteiner__ser--gallery__service {
+        .gallery__service--article__service {
+          width: 55%;
+
+          &:hover {
+            width: 65%;
+          }
+          .article__service--text__ser {
+            .text__ser--title__service {
+              font-size: 190%;
+            }
+
+            p {
+              font-size: 130%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+}

@@ -38,3 +38,28 @@ header {
     }
   }
 }
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .nav-link {
+      font-size: 110%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar-collapse {
+    flex-grow: 0;
+    padding-right: 3%;
+    width: 50%;
+    justify-content: end;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+}

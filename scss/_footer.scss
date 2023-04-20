@@ -46,3 +46,40 @@ footer {
     font-size: 100%;
   }
 }
+
+@media (min-width: 768px) {
+  .conteiner__footer {
+    display: grid;
+    grid-template-areas:
+      "icons icons"
+      "left right"
+      "down down";
+
+    .conteiner__footer--icons {
+      padding: 2% 0;
+      font-size: 160%;
+      justify-content: center;
+      align-items: center;
+      grid-area: icons;
+    }
+
+    .conteiner__footer--left {
+      grid-area: left;
+      font-size: 110%;
+      padding: 1%;
+    }
+
+    .conteiner__footer--right {
+      grid-area: right;
+      font-size: 110%;
+    }
+
+    .conteiner__footer--down {
+      grid-area: down;
+      font-size: 110%;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+}

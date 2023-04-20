@@ -51,3 +51,55 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .body__nos {
+    .conteiner__nos {
+      .conteiner__nos--div__title {
+        padding: 4% 0;
+
+        .div__title--title__nos {
+          font-size: 240%;
+        }
+      }
+    }
+  }
+
+  .section__left--p__nos {
+    font-size: 130%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .body__nos {
+    .conteiner__nos {
+      .conteiner__nos--div__title {
+        padding: 2% 0;
+
+        .div__title--title__nos {
+          font-size: 200%;
+        }
+      }
+
+      #conteiner__nos--section__left {
+        padding: 5% 8%;
+
+        .section__left--p__nos {
+          font-size: 120%;
+        }
+      }
+
+      #conteiner__nos--images__nos {
+        .images__nos--image {
+          width: 22%;
+          padding-bottom: 6%;
+
+          &:hover {
+            width: 30%;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

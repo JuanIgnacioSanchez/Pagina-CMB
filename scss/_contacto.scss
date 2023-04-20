@@ -88,3 +88,38 @@
     }
   }
 }
+
+@media (min-width: 768px) {
+  .body__con {
+    .conteiner__con {
+      .conteiner__con--div__title {
+        padding: 4% 0;
+
+        .div__title--title__con {
+          font-size: 240%;
+        }
+      }
+
+      .conteiner__con--section__con {
+        .section__con--left__con p {
+          font-size: 110%;
+        }
+
+        .section__con--right__con {
+          padding: 3% 0;
+
+          .right__con--title__right {
+            font-size: 150%;
+          }
+
+          .right__con--text__right {
+            font-size: 110%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+}

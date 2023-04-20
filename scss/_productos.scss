@@ -1,4 +1,4 @@
-.body__productos {
+.body__pro {
   display: grid;
   grid-template-rows: auto 1fr auto;
 
@@ -33,13 +33,24 @@
       padding: 10% 0;
 
       .gallery__products--article__product {
-        width: 300px;
+        width: 65%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 3%;
-        border: 2px solid $primary-color;
+        margin: 5%;
+        border: 1px solid $primary-color;
+        border-radius: 15px;
+        box-shadow: 0 0 10px $primary-color;
+        transition: $transition-1;
+
+        &:hover {
+          transition: $transition-1;
+          transform: translateY(-3%);
+          box-shadow: 0 0 15px $primary-color;
+          width: 80%;
+          height: auto;
+        }
 
         .article__product--image__product {
           width: 100%;
@@ -48,22 +59,59 @@
         .article__product--text__pro {
           background-color: $primary-color;
           width: 100%;
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
 
           .text__pro--title__product {
             font-size: 24px;
             text-align: center;
             padding: 1%;
             color: $secondary-color;
+          }
 
-            p {
-              text-align: center;
-              padding: 2%;
-              color: $secondary-color;
-              height: auto;
-            }
+          p {
+            text-align: center;
+            padding: 2%;
+            color: $secondary-color;
+            height: auto;
           }
         }
       }
     }
   }
+}
+
+@media (min-width: 768px) {
+  .body__pro {
+    .conteiner__pro {
+      .conteiner__pro--div__title {
+        padding: 4% 0;
+
+        .div__title--title__pro {
+          font-size: 240%;
+        }
+      }
+
+      .conteiner__pro--gallery__product {
+        .gallery__products--article__product {
+          width: 35%;
+
+          &:hover {
+            width: 40%;
+          }
+
+          .text__pro--title__product {
+            font-size: 160%;
+          }
+
+          p {
+            font-size: 110%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
 }

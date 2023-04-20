@@ -67,14 +67,14 @@ footer {
 
 .conteiner__footer--icons {
   text-align: center;
-  font-size: 120%;
-  padding-top: 3%;
+  font-size: 130%;
+  padding: 3% 0 1% 0;
   width: 100%;
 }
 
 .icons--icon {
   color: white;
-  padding: 1%;
+  padding: 1% 2%;
 }
 
 .conteiner__footer--left {
@@ -157,10 +157,11 @@ footer {
 .right__main--article__right {
   justify-self: center;
   align-self: center;
+  padding: 4% 0;
 }
 
 .right__main--bottom__right {
-  padding-bottom: 7%;
+  padding-bottom: 2%;
   justify-self: center;
   align-self: flex-start;
 }

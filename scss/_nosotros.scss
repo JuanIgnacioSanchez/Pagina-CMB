@@ -70,7 +70,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .body__nos {
     .conteiner__nos {
       .conteiner__nos--div__title {
@@ -95,9 +95,27 @@
           padding-bottom: 6%;
 
           &:hover {
-            width: 30%;
+            width: 28%;
             height: auto;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .body__nos {
+    .conteiner__nos {
+      .conteiner__nos--div__title {
+        .div__title--title__nos {
+          font-size: 230%;
+        }
+      }
+
+      #conteiner__nos--section__left {
+        .section__left--p__nos {
+          font-size: 140%;
         }
       }
     }

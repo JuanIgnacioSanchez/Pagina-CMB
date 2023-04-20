@@ -121,5 +121,113 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
+  .body__con {
+    .conteiner__con {
+      .conteiner__con--div__title {
+        padding: 2% 0;
+
+        .div__title--title__con {
+          font-size: 200%;
+        }
+      }
+
+      .conteiner__con--section__con {
+        padding: 3% 2%;
+        display: grid;
+        grid-template-columns: auto auto;
+
+        .section__con--left__con {
+          .left__con--title__left {
+            font-size: 140%;
+            padding: 1% 6%;
+            width: 100%;
+          }
+
+          p {
+            font-size: 110%;
+            padding: 0 6%;
+          }
+
+          .left__con--form__con {
+            align-items: start;
+            padding: 6% 15%;
+          }
+        }
+
+        .section__con--right__con {
+          padding: 0 10%;
+
+          .right__con--title__right {
+            font-size: 140%;
+            padding: 0 0 4% 0;
+          }
+
+          .right__con--text__right {
+            font-size: 110%;
+            padding: 2% 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .body__con {
+    .conteiner__con {
+      .conteiner__con--div__title {
+        .div__title--title__con {
+          font-size: 230%;
+        }
+      }
+
+      .conteiner__con--section__con {
+        padding: 3% 2%;
+        display: grid;
+        grid-template-columns: 60% auto;
+
+        .section__con--left__con {
+          .left__con--title__left {
+            font-size: 160%;
+          }
+
+          p {
+            font-size: 130%;
+          }
+
+          .left__con--form__con {
+            padding: 6% 20%;
+
+            .form__con--input__form {
+              width: 60%;
+              height: 10%;
+            }
+
+            .form__con--input__submit {
+              width: 15%;
+              height: auto;
+            }
+
+            .form__con--estilotextarea {
+              width: 70%;
+              height: auto;
+            }
+          }
+        }
+
+        .section__con--right__con {
+          padding: 0 15%;
+
+          .right__con--title__right {
+            font-size: 160%;
+          }
+
+          .right__con--text__right {
+            font-size: 130%;
+          }
+        }
+      }
+    }
+  }
 }

@@ -51,7 +51,7 @@ header {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
   .navbar-collapse {
     flex-grow: 0;
     padding-right: 3%;
@@ -61,5 +61,14 @@ header {
   .navbar-nav {
     width: 100%;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 1400px) {
+  nav {
+    .nav-link {
+      font-size: 130%;
+      padding: 2% 3%;
+    }
   }
 }

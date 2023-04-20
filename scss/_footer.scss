@@ -82,4 +82,21 @@ footer {
 }
 
 @media (min-width: 1400px) {
+  .conteiner__footer {
+    .conteiner__footer--icons {
+      font-size: 190%;
+    }
+
+    .conteiner__footer--left {
+      font-size: 140%;
+    }
+
+    .conteiner__footer--right {
+      font-size: 140%;
+    }
+
+    .conteiner__footer--down {
+      font-size: 120%;
+    }
+  }
 }

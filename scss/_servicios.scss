@@ -1,0 +1,88 @@
+.body__ser {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+  .conteiner__ser {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .conteiner__ser--div__title {
+      width: 100%;
+      background-color: $primary-color;
+      padding: 7% 0;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .div__title--title__ser {
+        color: $secondary-color;
+        font-size: 200%;
+      }
+    }
+
+    .conteiner__ser--gallery__service {
+      display: flex;
+      width: auto;
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10% 0;
+
+      .gallery__service--article__service {
+        width: 65%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 5%;
+        border: 1px solid $primary-color;
+        border-radius: 15px;
+        box-shadow: 0 0 10px $primary-color;
+        transition: $transition-1;
+
+        &:hover {
+          transition: $transition-1;
+          transform: translateY(-3%);
+          box-shadow: 0 0 15px $primary-color;
+          width: 80%;
+          height: auto;
+        }
+
+        .article__service--image__service {
+          width: 100%;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+
+        .article__service--text__ser {
+          background-color: $primary-color;
+          width: 100%;
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+
+          .text__ser--title__service {
+            font-size: 24px;
+            text-align: center;
+            padding: 1%;
+            color: $secondary-color;
+          }
+
+          p {
+            text-align: center;
+            padding: 2%;
+            color: $secondary-color;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

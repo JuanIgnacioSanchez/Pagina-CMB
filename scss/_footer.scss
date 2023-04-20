@@ -1,0 +1,48 @@
+footer {
+  background-color: $primary-color;
+  width: 100%;
+
+  .conteiner__footer--icons {
+    text-align: center;
+    font-size: 130%;
+    padding: 3% 0 1% 0;
+    width: 100%;
+
+    .icons--icon {
+      color: $secondary-color;
+      padding: 1% 2%;
+      font-size: 130%;
+      transition: $transition-1;
+
+      &:hover {
+        transition: $transition-1;
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 145%;
+      }
+    }
+  }
+
+  .conteiner__footer--left {
+    color: $secondary-color;
+    text-align: center;
+    width: auto;
+    padding: 3% 1% 1% 1%;
+    font-size: 100%;
+  }
+
+  .conteiner__footer--right {
+    color: $secondary-color;
+    text-align: center;
+    width: auto;
+    padding: 1%;
+  }
+
+  .conteiner__footer--down {
+    color: $secondary-color;
+    font-size: 90%;
+    text-align: center;
+    width: auto;
+    padding: 2% 1%;
+    font-size: 100%;
+  }
+}

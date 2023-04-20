@@ -1,0 +1,62 @@
+.body__index {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  .conteiner__index {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    #conteiner__index--left_main {
+      width: auto;
+
+      .left__main--title__index {
+        color: $primary-color;
+        font-size: 220%;
+        text-align: center;
+        padding-top: 8%;
+      }
+
+      .left__main--article__left {
+        padding: 9% 5% 0 5%;
+        text-align: center;
+
+        .article__left--p {
+          font-size: 100%;
+        }
+
+        .article__left--div__image {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 12% 3% 0 3%;
+
+          .div__image--images {
+            width: 35%;
+            height: auto;
+            padding: 4%;
+          }
+        }
+      }
+    }
+
+    #conteiner__index--right__main {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+
+      .right__main--article__right {
+        justify-self: center;
+        align-self: center;
+        padding: 4% 0;
+      }
+
+      .right__main--bottom__right {
+        padding-bottom: 2%;
+        justify-self: center;
+        align-self: flex-start;
+      }
+    }
+  }
+}

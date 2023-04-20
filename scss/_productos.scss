@@ -1,0 +1,69 @@
+.body__productos {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  .conteiner__pro {
+    background-image: url(../imagenes/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .conteiner__pro--div__title {
+      width: 100%;
+      background-color: $primary-color;
+      padding: 7% 0;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+
+      .div__title--title__pro {
+        color: $secondary-color;
+        font-size: 200%;
+      }
+    }
+
+    .conteiner__pro--gallery__product {
+      display: flex;
+      width: auto;
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 10% 0;
+
+      .gallery__products--article__product {
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 3%;
+        border: 2px solid $primary-color;
+
+        .article__product--image__product {
+          width: 100%;
+        }
+
+        .article__product--text__pro {
+          background-color: $primary-color;
+          width: 100%;
+
+          .text__pro--title__product {
+            font-size: 24px;
+            text-align: center;
+            padding: 1%;
+            color: $secondary-color;
+
+            p {
+              text-align: center;
+              padding: 2%;
+              color: $secondary-color;
+              height: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

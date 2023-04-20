@@ -1,0 +1,40 @@
+header {
+  background-image: url(../imagenes/fondoheader.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+
+    .container-fluid {
+      padding: 0;
+      margin: 0;
+
+      .navbar-brand {
+        width: 35%;
+        margin: 0;
+        padding: 0;
+
+        .logo-navbar {
+          width: 130px;
+          height: auto;
+        }
+      }
+
+      .navbar-toggler {
+        margin-right: 2%;
+      }
+
+      .nav-link {
+        color: $primary-color;
+        padding-left: 2%;
+      }
+    }
+  }
+}

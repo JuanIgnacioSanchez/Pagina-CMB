@@ -13,7 +13,7 @@
       width: auto;
 
       .left__main--title__index {
-        color: $primary-color;
+        color: map-get($color, primary-color);
         font-size: 220%;
         text-align: center;
         padding-top: 8%;

@@ -32,7 +32,7 @@ header {
       }
 
       .nav-link {
-        color: $primary-color;
+        color: map-get($color, primary-color);
         padding-left: 2%;
       }
     }

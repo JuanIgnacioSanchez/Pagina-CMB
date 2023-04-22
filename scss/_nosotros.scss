@@ -10,17 +10,10 @@
     background-attachment: fixed;
 
     .conteiner__nos--div__title {
-      width: 100%;
-      background-color: $primary-color;
-      padding: 7% 0;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
+      @include div-title;
 
       .div__title--title__nos {
-        color: $secondary-color;
-        font-size: 200%;
+        @include title;
       }
     }
 

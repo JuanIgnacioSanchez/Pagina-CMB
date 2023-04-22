@@ -10,17 +10,10 @@
     background-attachment: fixed;
 
     .conteiner__pro--div__title {
-      width: 100%;
-      background-color: $primary-color;
-      padding: 7% 0;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
+      @include div-title;
 
       .div__title--title__pro {
-        color: $secondary-color;
-        font-size: 200%;
+        @include title;
       }
     }
 
@@ -33,23 +26,10 @@
       padding: 10% 0;
 
       .gallery__products--article__product {
-        width: 65%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 5%;
-        border: 1px solid $primary-color;
-        border-radius: 15px;
-        box-shadow: 0 0 10px $primary-color;
-        transition: $transition-1;
+        @include cards;
 
         &:hover {
-          transition: $transition-1;
-          transform: translateY(-3%);
-          box-shadow: 0 0 15px $primary-color;
-          width: 80%;
-          height: auto;
+          @include hover-cards;
         }
 
         .article__product--image__product {
@@ -57,7 +37,7 @@
         }
 
         .article__product--text__pro {
-          background-color: $primary-color;
+          background-color: map-get($color, primary-color);
           width: 100%;
           border-bottom-left-radius: 15px;
           border-bottom-right-radius: 15px;
@@ -66,13 +46,13 @@
             font-size: 24px;
             text-align: center;
             padding: 1%;
-            color: $secondary-color;
+            color: map-get($color, secondary-color);
           }
 
           p {
             text-align: center;
             padding: 2%;
-            color: $secondary-color;
+            color: map-get($color, secondary-color);
             height: auto;
           }
         }

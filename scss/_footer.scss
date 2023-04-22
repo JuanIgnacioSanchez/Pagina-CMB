@@ -1,5 +1,5 @@
 footer {
-  background-color: $primary-color;
+  background-color: map-get($color, primary-color);
   width: 100%;
 
   .conteiner__footer--icons {
@@ -9,7 +9,7 @@ footer {
     width: 100%;
 
     .icons--icon {
-      color: $secondary-color;
+      color: map-get($color, secondary-color);
       padding: 1% 2%;
       font-size: 130%;
       transition: $transition-1;
@@ -23,7 +23,7 @@ footer {
   }
 
   .conteiner__footer--left {
-    color: $secondary-color;
+    color: map-get($color, secondary-color);
     text-align: center;
     width: auto;
     padding: 3% 1% 1% 1%;
@@ -31,14 +31,14 @@ footer {
   }
 
   .conteiner__footer--right {
-    color: $secondary-color;
+    color: map-get($color, secondary-color);
     text-align: center;
     width: auto;
     padding: 1%;
   }
 
   .conteiner__footer--down {
-    color: $secondary-color;
+    color: map-get($color, secondary-color);
     font-size: 90%;
     text-align: center;
     width: auto;

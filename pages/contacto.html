@@ -39,6 +39,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="body__con">
@@ -76,7 +79,9 @@
       <main>
         <div class="conteiner__con">
           <div class="conteiner__con--div__title">
-            <h1 class="div__title--title__con"><b>Contacto</b></h1>
+            <h1 class="div__title--title__con" data-aos="fade-right">
+              <b>Contacto</b>
+            </h1>
           </div>
           <section class="conteiner__con--section__con">
             <article class="section__con--left__con">
@@ -167,5 +172,10 @@
         </div>
       </footer>
     </div>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

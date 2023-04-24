@@ -40,7 +40,6 @@
             transition: $transition-1;
 
             &:hover {
-              transition: $transition-1;
               transform: translateY(-3%);
               width: 40%;
               height: auto;
@@ -139,6 +138,16 @@
 
           .article__left--div__image {
             padding-bottom: 3%;
+
+            .div__image--images {
+              width: 27%;
+              height: auto;
+
+              &:hover {
+                width: 30%;
+                height: auto;
+              }
+            }
           }
 
           .div__image--images {

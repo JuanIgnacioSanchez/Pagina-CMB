@@ -12,7 +12,6 @@
 }
 
 @mixin hover-cards {
-  transition: $transition-1;
   transform: translateY(-3%);
   box-shadow: 0 0 15px map-get($color, primary-color);
   width: 80%;

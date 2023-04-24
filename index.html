@@ -40,6 +40,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -81,7 +84,7 @@
       <main>
         <div class="conteiner__index">
           <section id="conteiner__index--left__main">
-            <h1 class="left__main--title__index">
+            <h1 class="left__main--title__index" data-aos="fade-right">
               <b>Casa Martin Baterías</b>
             </h1>
             <article class="left__main--article__left">
@@ -178,5 +181,10 @@
         </div>
       </footer>
     </div>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

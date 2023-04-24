@@ -39,6 +39,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="body__ser">
@@ -76,7 +79,9 @@
       <main>
         <div class="conteiner__ser">
           <div class="conteiner__ser--div__title">
-            <h1 class="div__title--title__ser"><b>Nuestros servicios</b></h1>
+            <h1 class="div__title--title__ser" data-aos="fade-right">
+              <b>Nuestros servicios</b>
+            </h1>
           </div>
           <section class="conteiner__ser--gallery__service">
             <article class="gallery__service--article__service">
@@ -119,12 +124,11 @@
               />
               <div class="article__service--text__ser">
                 <h3 class="text__ser--title__service">
-                  <b>Auxilios dentro de nuestra zona</b>
+                  <b>Auxilios dentro de nuestro departamento</b>
                 </h3>
                 <p>
                   Si te quedas sin batería y no podes llegar hasta nuestro
-                  local, nosotros vamos y te cambiamos la batería, ¡Donde te
-                  hayas quedado!
+                  local, vamos y cambiamos tu batería, ¡Donde te hayas quedado!
                 </p>
               </div>
             </article>
@@ -168,5 +172,10 @@
         </div>
       </footer>
     </div>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -30,15 +30,16 @@
       .images__nos--image {
         width: 30%;
         height: auto;
-        padding: 0 3%;
-        padding-bottom: 8%;
+        margin: 0 3%;
+        margin-bottom: 8%;
         transition: $transition-1;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 
         &:hover {
-          transition: $transition-1;
           transform: translateY(-3%);
           width: 45%;
           height: auto;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.99);
         }
       }
     }
@@ -84,11 +85,11 @@
 
       #conteiner__nos--images__nos {
         .images__nos--image {
-          width: 22%;
-          padding-bottom: 6%;
+          width: 16%;
+          margin-bottom: 6%;
 
           &:hover {
-            width: 28%;
+            width: 18%;
             height: auto;
           }
         }

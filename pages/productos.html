@@ -40,6 +40,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- AOS link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <div class="body__pro">
@@ -77,10 +80,16 @@
       <main>
         <div class="conteiner__pro">
           <div class="conteiner__pro--div__title">
-            <h1 class="div__title--title__pro"><b>Nuestros productos</b></h1>
+            <h1 class="div__title--title__pro" data-aos="fade-right">
+              <b>Nuestros productos</b>
+            </h1>
           </div>
           <section class="conteiner__pro--gallery__product">
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM500.png"
@@ -96,7 +105,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM700.png"
@@ -112,7 +125,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM800.png"
@@ -128,7 +145,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM900.png"
@@ -144,7 +165,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM1200.png"
@@ -160,7 +185,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/CM2200.png"
@@ -176,7 +205,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/batindustrial48v.png"
@@ -192,7 +225,11 @@
                 </p>
               </div>
             </article>
-            <article class="gallery__products--article__product">
+            <article
+              class="gallery__products--article__product"
+              data-aos="zoom-in"
+              data-aos-duration="3000"
+            >
               <img
                 class="article__product--image__product"
                 src="../imagenes/batindustrial80v.png"
@@ -248,5 +285,10 @@
         </div>
       </footer>
     </div>
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -190,7 +190,6 @@ footer .conteiner__footer--down {
   transition: all 400ms ease;
 }
 .body__index .conteiner__index #conteiner__index--left__main .left__main--article__left .article__left--div__image .div__image--images:hover {
-  transition: all 400ms ease;
   transform: translateY(-3%);
   width: 40%;
   height: auto;
@@ -261,6 +260,14 @@ footer .conteiner__footer--down {
   }
   .body__index .conteiner__index #conteiner__index--left__main .left__main--article__left .article__left--div__image {
     padding-bottom: 3%;
+  }
+  .body__index .conteiner__index #conteiner__index--left__main .left__main--article__left .article__left--div__image .div__image--images {
+    width: 27%;
+    height: auto;
+  }
+  .body__index .conteiner__index #conteiner__index--left__main .left__main--article__left .article__left--div__image .div__image--images:hover {
+    width: 30%;
+    height: auto;
   }
   .body__index .conteiner__index #conteiner__index--left__main .left__main--article__left .div__image--images {
     width: 25%;
@@ -355,15 +362,16 @@ footer .conteiner__footer--down {
 .body__nos .conteiner__nos #conteiner__nos--images__nos .images__nos--image {
   width: 30%;
   height: auto;
-  padding: 0 3%;
-  padding-bottom: 8%;
+  margin: 0 3%;
+  margin-bottom: 8%;
   transition: all 400ms ease;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 .body__nos .conteiner__nos #conteiner__nos--images__nos .images__nos--image:hover {
-  transition: all 400ms ease;
   transform: translateY(-3%);
   width: 45%;
   height: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.99);
 }
 
 @media (min-width: 768px) {
@@ -391,11 +399,11 @@ footer .conteiner__footer--down {
     font-size: 120%;
   }
   .body__nos .conteiner__nos #conteiner__nos--images__nos .images__nos--image {
-    width: 22%;
-    padding-bottom: 6%;
+    width: 16%;
+    margin-bottom: 6%;
   }
   .body__nos .conteiner__nos #conteiner__nos--images__nos .images__nos--image:hover {
-    width: 28%;
+    width: 18%;
     height: auto;
   }
 }
@@ -452,7 +460,6 @@ footer .conteiner__footer--down {
   transition: all 400ms ease;
 }
 .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-  transition: all 400ms ease;
   transform: translateY(-3%);
   box-shadow: 0 0 15px #028090;
   width: 80%;
@@ -511,10 +518,10 @@ footer .conteiner__footer--down {
     padding: 2% 0;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
-    width: 30%;
+    width: 23%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-    width: 35%;
+    width: 24%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
     font-size: 160%;
@@ -528,10 +535,10 @@ footer .conteiner__footer--down {
     font-size: 230%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
-    width: 20%;
+    width: 22%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-    width: 25%;
+    width: 23%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
     font-size: 190%;
@@ -586,7 +593,6 @@ footer .conteiner__footer--down {
   transition: all 400ms ease;
 }
 .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service:hover {
-  transition: all 400ms ease;
   transform: translateY(-3%);
   box-shadow: 0 0 15px #028090;
   width: 80%;
@@ -647,10 +653,10 @@ footer .conteiner__footer--down {
     padding: 3% 0;
   }
   .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service {
-    width: 30%;
+    width: 23%;
   }
   .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service:hover {
-    width: 35%;
+    width: 24%;
   }
   .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service .article__service--text__ser .text__ser--title__service {
     font-size: 160%;

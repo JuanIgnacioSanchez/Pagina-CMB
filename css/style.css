@@ -5,11 +5,6 @@
 }
 
 header {
-  background-image: url(../imagenes/fondoheader.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -19,6 +14,7 @@ header .navbar {
   padding: 0;
 }
 header .navbar .container-fluid {
+  background-image: linear-gradient(to right, white, #f8f8f8, #f8f8f8);
   padding: 0;
   margin: 0;
 }
@@ -349,6 +345,7 @@ footer .conteiner__footer--down {
 .body__nos .conteiner__nos .conteiner__nos--div__title .div__title--title__nos {
   color: white;
   font-size: 200%;
+  margin: 0;
 }
 .body__nos .conteiner__nos #conteiner__nos--section__left {
   text-align: center;
@@ -438,6 +435,7 @@ footer .conteiner__footer--down {
 .body__pro .conteiner__pro .conteiner__pro--div__title .div__title--title__pro {
   color: white;
   font-size: 200%;
+  margin: 0;
 }
 .body__pro .conteiner__pro .conteiner__pro--gallery__product {
   display: flex;
@@ -571,6 +569,7 @@ footer .conteiner__footer--down {
 .body__ser .conteiner__ser .conteiner__ser--div__title .div__title--title__ser {
   color: white;
   font-size: 200%;
+  margin: 0;
 }
 .body__ser .conteiner__ser .conteiner__ser--gallery__service {
   display: flex;
@@ -705,6 +704,7 @@ footer .conteiner__footer--down {
 .body__con .conteiner__con .conteiner__con--div__title .div__title--title__con {
   color: white;
   font-size: 200%;
+  margin: 0;
 }
 .body__con .conteiner__con .conteiner__con--section__con {
   padding: 6% 2%;

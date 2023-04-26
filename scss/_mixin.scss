@@ -31,4 +31,5 @@
 @mixin title {
   color: map-get($color, secondary-color);
   font-size: 200%;
+  margin: 0;
 }

@@ -466,7 +466,6 @@ footer .conteiner__footer--down {
 .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
   transform: translateY(-3%);
   box-shadow: 0 0 15px #028090;
-  width: 80%;
   height: auto;
 }
 .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--image__product {
@@ -501,9 +500,6 @@ footer .conteiner__footer--down {
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
     width: 35%;
   }
-  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-    width: 40%;
-  }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
     font-size: 160%;
   }
@@ -524,9 +520,6 @@ footer .conteiner__footer--down {
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
     width: 23%;
   }
-  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-    width: 24%;
-  }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
     font-size: 160%;
   }
@@ -540,9 +533,6 @@ footer .conteiner__footer--down {
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
     width: 22%;
-  }
-  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
-    width: 23%;
   }
   .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
     font-size: 190%;
@@ -600,7 +590,6 @@ footer .conteiner__footer--down {
 .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service:hover {
   transform: translateY(-3%);
   box-shadow: 0 0 15px #028090;
-  width: 80%;
   height: auto;
 }
 .body__ser .conteiner__ser .conteiner__ser--gallery__service .gallery__service--article__service .article__service--image__service {

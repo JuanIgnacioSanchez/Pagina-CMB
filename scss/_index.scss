@@ -41,7 +41,6 @@
 
             &:hover {
               transform: translateY(-3%);
-              width: 40%;
               height: auto;
             }
           }
@@ -142,11 +141,6 @@
             .div__image--images {
               width: 27%;
               height: auto;
-
-              &:hover {
-                width: 30%;
-                height: auto;
-              }
             }
           }
 

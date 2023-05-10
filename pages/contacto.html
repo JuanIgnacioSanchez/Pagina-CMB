@@ -99,31 +99,41 @@
                 Dejanos tu mensaje y en cuanto se conecte nuestro personal, su
                 consulta será respondida.
               </p>
-              <form class="left__con--form__con">
+              <form
+                action="https://formsubmit.co/ventas@cmbbaterias.com"
+                method="POST"
+                class="left__con--form__con"
+              >
                 <input
                   class="form__con--input__form"
+                  required
                   type="text"
+                  name="name"
                   placeholder="Nombre y Apellido"
                 />
                 <input
                   class="form__con--input__form"
                   type="text"
+                  name="Teléfono"
                   placeholder="Teléfono"
                 />
                 <input
                   class="form__con--input__form"
+                  required
                   type="text"
+                  name="Mail"
                   placeholder="Correo electronico"
                 />
                 <textarea
                   class="form__con--estilotextarea"
+                  required
                   name="consulta"
-                  id=""
                   placeholder="Consulta"
                 ></textarea>
                 <input
                   class="form__con--input__submit"
                   type="submit"
+                  name="submit"
                   value="Enviar"
                 />
               </form>

@@ -14,6 +14,12 @@ header .navbar {
   margin: 0;
   padding: 0;
 }
+header .navbar ul {
+  margin-right: 2%;
+}
+header .navbar ul li a {
+  font-weight: 600;
+}
 header .navbar .container-fluid {
   background-image: linear-gradient(to right, white, #f8f8f8, #f8f8f8, #f8f8f8);
   padding: 0;
@@ -25,7 +31,7 @@ header .navbar .container-fluid .navbar-brand {
   padding: 0;
 }
 header .navbar .container-fluid .navbar-brand .logo-navbar {
-  width: 130px;
+  width: 150px;
   height: auto;
 }
 header .navbar .container-fluid .navbar-toggler {
@@ -36,18 +42,35 @@ header .navbar .container-fluid .nav-link {
   padding-left: 2%;
   transition: all 400ms ease;
 }
+header .navbar .container-fluid .nav-link a {
+  text-decoration: none;
+  color: #028090;
+}
+header .navbar .container-fluid .nav-link a:hover {
+  color: rgba(0, 0, 0, 0.7);
+  transform: translateY(-3%);
+}
 header .navbar .container-fluid .nav-link:hover {
   color: rgba(0, 0, 0, 0.7);
   transform: translateY(-3%);
 }
 
 @media (min-width: 768px) {
-  nav {
+  header .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  nav .nav-link {
+  header .navbar .container-fluid .navbar-brand {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+  }
+  header .navbar .container-fluid .navbar-brand .logo-navbar {
+    width: 170px;
+    height: auto;
+  }
+  header .navbar .nav-link {
     font-size: 110%;
   }
 }
@@ -79,16 +102,15 @@ footer .conteiner__footer--icons {
   padding: 3% 0 1% 0;
   width: 100%;
 }
-footer .conteiner__footer--icons .icons--icon {
+footer .conteiner__footer--icons .icons--icon i {
   color: white;
   padding: 1% 2%;
   font-size: 130%;
   transition: all 400ms ease;
 }
-footer .conteiner__footer--icons .icons--icon:hover {
-  transition: all 400ms ease;
+footer .conteiner__footer--icons .icons--icon i:hover {
   color: rgba(0, 0, 0, 0.6);
-  font-size: 145%;
+  transform: translateY(-5%);
 }
 footer .conteiner__footer--left {
   color: white;
@@ -114,6 +136,10 @@ footer .conteiner__footer--down {
 footer .conteiner__footer--down p .luxury-programming {
   color: white;
   font-weight: 400;
+  transition: all 400ms ease;
+}
+footer .conteiner__footer--down p .luxury-programming:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 768px) {
@@ -415,6 +441,129 @@ footer .conteiner__footer--down p .luxury-programming {
   }
   .body__nos .conteiner__nos #conteiner__nos--section__left .section__left--p__nos {
     font-size: 140%;
+  }
+}
+.body__pro {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.body__pro .conteiner__pro {
+  background-image: url(../imagenes/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.body__pro .conteiner__pro .conteiner__pro--div__title {
+  width: 100%;
+  background-color: #028090;
+  padding: 7% 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.body__pro .conteiner__pro .conteiner__pro--div__title .div__title--title__pro {
+  color: white;
+  font-size: 200%;
+  margin: 0;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product {
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10% 0;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
+  width: 65%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5%;
+  border: 1px solid #028090;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #028090;
+  transition: all 400ms ease;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 0 15px #028090;
+  height: auto;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--image__product {
+  width: 100%;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro {
+  background-color: #028090;
+  width: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
+  font-size: 24px;
+  text-align: center;
+  padding: 1%;
+  color: white;
+}
+.body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro p {
+  text-align: center;
+  padding: 2%;
+  color: white;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .body__pro .conteiner__pro .conteiner__pro--div__title {
+    padding: 4% 0;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--div__title .div__title--title__pro {
+    font-size: 240%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
+    width: 35%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
+    font-size: 160%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro p {
+    font-size: 110%;
+  }
+}
+@media (min-width: 992px) {
+  .body__pro .conteiner__pro .conteiner__pro--div__title {
+    padding: 2% 0;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--div__title .div__title--title__pro {
+    font-size: 200%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product {
+    padding: 2% 0;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
+    width: 23%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
+    font-size: 160%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro p {
+    font-size: 110%;
+  }
+}
+@media (min-width: 1400px) {
+  .body__pro .conteiner__pro .conteiner__pro--div__title .div__title--title__pro {
+    font-size: 230%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product {
+    width: 22%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro .text__pro--title__product {
+    font-size: 190%;
+  }
+  .body__pro .conteiner__pro .conteiner__pro--gallery__product .gallery__products--article__product .article__product--text__pro p {
+    font-size: 130%;
   }
 }
 .body__pro {

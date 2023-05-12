@@ -8,6 +8,16 @@ header {
     margin: 0;
     padding: 0;
 
+    ul {
+      margin-right: 2%;
+
+      li {
+        a {
+          font-weight: 600;
+        }
+      }
+    }
+
     .container-fluid {
       background-image: linear-gradient(
         to right,
@@ -25,7 +35,7 @@ header {
         padding: 0;
 
         .logo-navbar {
-          width: 130px;
+          width: 150px;
           height: auto;
         }
       }
@@ -39,6 +49,16 @@ header {
         padding-left: 2%;
         transition: $transition-1;
 
+        a {
+          text-decoration: none;
+          color: map-get($color, primary-color);
+
+          &:hover {
+            color: map-get($color, shadow-black-7);
+            transform: translateY(-3%);
+          }
+        }
+
         &:hover {
           color: map-get($color, shadow-black-7);
           transform: translateY(-3%);
@@ -49,13 +69,28 @@ header {
 }
 
 @media (min-width: 768px) {
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  header {
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
-    .nav-link {
-      font-size: 110%;
+      .container-fluid {
+        .navbar-brand {
+          width: 35%;
+          margin: 0;
+          padding: 0;
+
+          .logo-navbar {
+            width: 170px;
+            height: auto;
+          }
+        }
+      }
+
+      .nav-link {
+        font-size: 110%;
+      }
     }
   }
 }

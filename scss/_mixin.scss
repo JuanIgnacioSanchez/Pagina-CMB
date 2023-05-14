@@ -8,7 +8,7 @@
   border: 1px solid map-get($color, primary-color);
   border-radius: 15px;
   box-shadow: 0 0 10px map-get($color, primary-color);
-  transition: $transition-1;
+  @include transition-1(400ms);
 }
 
 @mixin hover-cards {
@@ -31,4 +31,8 @@
   color: map-get($color, secondary-color);
   font-size: 200%;
   margin: 0;
+}
+
+@mixin transition-1($ms) {
+  transition: all $ms ease;
 }

@@ -47,7 +47,7 @@ header {
       .nav-link {
         color: map-get($color, primary-color);
         padding-left: 2%;
-        transition: $transition-1;
+        @include transition-1(400ms);
 
         a {
           text-decoration: none;

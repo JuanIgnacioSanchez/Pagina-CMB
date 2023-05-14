@@ -13,7 +13,7 @@ footer {
         color: map-get($color, secondary-color);
         padding: 1% 2%;
         font-size: 130%;
-        transition: $transition-1;
+        @include transition-1(400ms);
 
         &:hover {
           color: rgba(0, 0, 0, 0.6);
@@ -50,7 +50,7 @@ footer {
       .luxury-programming {
         color: map-get($color, secondary-color);
         font-weight: 400;
-        transition: $transition-1;
+        @include transition-1(400ms);
 
         &:hover {
           color: rgba(0, 0, 0, 0.6);

@@ -45,12 +45,15 @@ header .navbar .container-fluid .nav-link {
 header .navbar .container-fluid .nav-link a {
   text-decoration: none;
   color: #028090;
+  transition: all 200ms ease;
 }
 header .navbar .container-fluid .nav-link a:hover {
+  color: rgba(0, 0, 0, 0.6);
   transform: translateY(-3%);
 }
 header .navbar .container-fluid .nav-link:hover {
-  transform: translateY(-3%);
+  color: rgba(0, 0, 0, 0.6);
+  transform: translateY(-5%);
 }
 
 @media (min-width: 768px) {

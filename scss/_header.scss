@@ -52,16 +52,17 @@ header {
         a {
           text-decoration: none;
           color: map-get($color, primary-color);
+          @include transition-1(200ms);
 
           &:hover {
-            color: map-get($color, shadow-black-7);
+            color: map-get($color, shadow-primary-6);
             transform: translateY(-3%);
           }
         }
 
         &:hover {
-          color: map-get($color, shadow-black-7);
-          transform: translateY(-3%);
+          color: map-get($color, shadow-primary-6);
+          transform: translateY(-5%);
         }
       }
     }

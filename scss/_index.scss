@@ -389,9 +389,9 @@
             padding: 1%;
             margin: 2%;
             width: 30%;
-            box-shadow: 0 0 10px map-get($color, primary-color);
+            box-shadow: 0 0 5px map-get($color, shadow-primary-5);
             border-radius: 10px;
-            @include transition-1(200ms);
+            @include transition-1(250ms);
 
             &:hover {
               transform: translateY(-3%);

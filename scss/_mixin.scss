@@ -8,6 +8,7 @@
   border: 1px solid map-get($color, primary-color);
   border-radius: 15px;
   box-shadow: 0 0 10px map-get($color, primary-color);
+  cursor: default;
   @include transition-1(400ms);
 }
 

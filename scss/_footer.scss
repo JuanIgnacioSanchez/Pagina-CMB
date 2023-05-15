@@ -11,7 +11,7 @@ footer {
     .icons--icon {
       i {
         color: map-get($color, secondary-color);
-        padding: 1% 2%;
+        padding: 1% 4%;
         font-size: 130%;
         @include transition-1(400ms);
 

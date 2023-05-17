@@ -64,6 +64,10 @@
         }
       }
     }
+
+    .btn-whatsapp {
+      display: none;
+    }
   }
 }
 
@@ -109,7 +113,7 @@
       }
 
       .conteiner__ser--gallery__service {
-        padding: 3% 0;
+        padding: 3%;
 
         .gallery__service--article__service {
           width: 23%;
@@ -123,6 +127,21 @@
               font-size: 110%;
             }
           }
+        }
+      }
+
+      .btn-whatsapp {
+        display: block;
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        bottom: 30px;
+        right: 30px;
+        line-height: 55px;
+
+        img {
+          width: 100%;
+          filter: drop-shadow(0 0 5px #08b51a);
         }
       }
     }
